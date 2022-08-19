@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f2ebe3; }
+
+#main {
+  padding: 150px; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 800px;
+  height: 560px; }
+
+.article__img {
+  width: 100%;
+  align-self: center;
+  flex-basis: 50%;
+  color: white; }
+
+.article__img img {
+  width: 100%;
+  height: 555px; }
+
+.article__p {
+  height: 555px;
+  width: 100%;
+  background-color: white;
+  align-self: center;
+  flex-basis: 50%; }
+
+.p1 {
+  padding: 30px;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #bdb8b2;
+  text-align: start;
+  letter-spacing: 3px;
+  font-family: 'Poppins', sans-serif; }
+
+.h2 {
+  padding-left: 30px;
+  text-align: start;
+  font-size: 48px;
+  letter-spacing: normal;
+  line-height: 42px;
+  font-family: 'Poppins', sans-serif; }
+
+.p2 {
+  padding: 25px;
+  text-align: start;
+  padding-left: 30px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6c7289;
+  font-family: 'Poppins', sans-serif; }
+
+.precios {
+  display: flex;
+  flex-direction: row;
+  padding: 30px; }
+
+.precio {
+  padding-left: 35px;
+  font-size: 45px;
+  color: #3c8067;
+  font-family: 'Poppins', sans-serif; }
+
+.oferta {
+  padding: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  text-decoration: line-through;
+  color: #6c7289; }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto; }
+
+button {
+  width: 250px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: #3c8067;
+  border-color: white;
+  color: white;
+  font-size: 18px; }
